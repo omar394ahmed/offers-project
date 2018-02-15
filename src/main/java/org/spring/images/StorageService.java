@@ -45,7 +45,7 @@ public class StorageService {
 	
 	// private final static Path rootLocation = Paths.get(demo2);
 	
-	 private final static Path rootLocation = Paths.get("C:\\Users\\omar\\Documents\\workspace-sts-3.9.0.RELEASE\\Backend_API\\src\\main\\webapp\\images");
+	 private final static Path rootLocation = Paths.get("/deployments/api/images");
 
 	public String  store(MultipartFile file){
 		try {
