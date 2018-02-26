@@ -45,7 +45,7 @@ public class StorageService {
 	
 	// private final static Path rootLocation = Paths.get(demo2);
 	
-	 private final static Path rootLocation = Paths.get("/deployment/api/images");
+	 private final static Path rootLocation = Paths.get("/deployments/api/images");
 
 	public String  store(MultipartFile file){
 		try {
