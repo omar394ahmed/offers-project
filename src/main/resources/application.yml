@@ -1,0 +1,11 @@
+spring:
+   datasource:
+     driverClassName: com.mysql.jdbc.Driver
+     url: jdbc:mysql://160.153.128.26:3306/best-offer
+     username: admin-selema
+     password: itisfine@today@282
+   jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true 
+      show-sql: true
+      database-platform : org.hibernate.dialect.MySQLDialect
